@@ -11,13 +11,14 @@ header, main, footer {
 header {
     justify-content: center;
     background-color: crimson;
+    padding: 1rem;
 
 }
 header img {
     float: right
 }
 header img {
-    width: 200px;
+    width: 250px;
     height: auto;
 }
 
@@ -30,5 +31,7 @@ h1 {
 footer {
     background-color: crimson;
     justify-content: center;
+    color: white;
     text-align: center;
+    padding: 1rem;
 }
