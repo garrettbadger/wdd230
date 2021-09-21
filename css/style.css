@@ -40,3 +40,7 @@ footer {
 footer a {
     color:turquoise;
 }
+
+footer a:visited {
+    color:skyblue
+}
