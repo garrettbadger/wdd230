@@ -1,0 +1,101 @@
+body {
+    font-size: 16pt;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+header, main, footer {
+    max-width: 60%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+header {
+    justify-content: center;
+    background-color:teal;
+    padding: 1rem;
+    text-align: center;
+
+}
+footer {
+    background-color: teal;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    
+}
+
+footer a {
+    color:maroon;
+}
+
+footer a:visited {
+    color:purple
+}
+img{
+    
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+.screenshot img{
+    width: 400px;
+    height: auto;
+    text-align: center;
+    
+}
+.grid-container{
+    display: grid;
+    margin: 1 rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    max-width: fit-content;
+    padding: 10px;
+    
+
+}
+.grid-item1{
+    
+    background-color: lightslategray;
+    grid-column: 1;
+    text-align: left;
+    padding: 10px;
+    align-items: center;
+    border-radius: 10px;
+
+    
+}
+.grid-item2{
+    text-align: left;
+    padding: 10px;
+    background-color: lightslategray;
+    grid-column: 2;
+    align-items: center;
+    border-radius: 10px;    
+
+}
+.grid-item3{
+    text-align: left;
+    padding: 10px;
+    background-color: lightslategray;
+    grid-column: 3;
+    align-items: center;
+    border-radius: 10px;
+
+}
+.grid-header {
+    padding: .5rem;
+    background-color: black;
+    color: whitesmoke;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+p{
+    color:mintcream
+}
