@@ -41,6 +41,10 @@ img{
     margin-inline-start: 40px;
     margin-inline-end: 40px;
 }
+main{
+    max-width: 80%;
+    max-height: auto;
+}
 .screenshot img{
     width: 400px;
     height: auto;
@@ -54,6 +58,7 @@ img{
     gap: 10px;
     max-width: fit-content;
     padding: 10px;
+
     
 
 }
