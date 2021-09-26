@@ -44,6 +44,7 @@ img{
 main{
     max-width: 80%;
     max-height: auto;
+    margin: 0 auto;
 }
 .screenshot img{
     width: 400px;
@@ -56,7 +57,7 @@ main{
     margin: 1 rem;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
-    max-width: fit-content;
+    max-width: 80%;
     padding: 10px;
 
     
