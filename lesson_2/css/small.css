@@ -52,8 +52,9 @@ footer a:visited {
     margin: 10px;
     grid-template-columns: 1fr;
     gap: 10px;
-    max-width: fit-content;
+    /*max-width: ;*/
     padding: 10px;
+    justify-content: center;
     
 
 }
