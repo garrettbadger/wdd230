@@ -5,7 +5,7 @@ body {
 }
 
 header, main, footer {
-    max-width: 60%;
+    max-width: 80%;
     margin: 0 auto;
     border-radius: 10px;
 }
@@ -15,6 +15,7 @@ header {
     background-color:teal;
     padding: 1rem;
     text-align: center;
+    color: white;
 
 }
 footer {
@@ -26,12 +27,12 @@ footer {
     
 }
 
-footer a {
-    color:maroon;
+ a {
+    color:white;
 }
 
-footer a:visited {
-    color:purple
+ a:visited {
+    color:black
 }
 /*img{
     
@@ -82,7 +83,7 @@ footer a:visited {
     margin: 0;
 }
 p{
-    color:mintcream
+    color:black
 }
 
 
