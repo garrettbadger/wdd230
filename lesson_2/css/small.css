@@ -34,6 +34,9 @@ footer {
  a:visited {
     color:black
 }
+div a:visited {
+    color:darkred
+}
 /*img{
     
     display: block;
