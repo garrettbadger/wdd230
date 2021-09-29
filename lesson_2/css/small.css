@@ -64,7 +64,7 @@ div a:visited {
 }
 .grid-item{
     
-    background-color: lightslategray;
+    background-color: rgb(177, 187, 197);
     /*grid-column: 1;*/
     text-align: left;
     padding: 10px;
