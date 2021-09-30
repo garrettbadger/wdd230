@@ -1,0 +1,63 @@
+/* CSS HEX 
+--light-green: #7dde92ff;
+--gold-crayola: #f3c178ff;
+--ming: #387780ff;
+--dark-jungle-green: #00120bff;
+*/
+body {
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+header, footer {
+    background-color: #7dde92ff;
+    
+    
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
+}
+header, main, footer {
+	max-width: 60%;
+	margin: 0 auto;
+}
+
+nav {
+    background-color: #387780ff;
+    text-align: center;
+    border-radius: 20px;
+   
+    
+    
+
+}
+nav a:hover {
+    background-color: #00120bff;
+}
+nav ul {
+    list-style-type: none;
+    margin: none;
+    padding: none;
+    
+    
+}
+
+
+nav ul li a {
+    display: block;
+    color: #f3c178ff;
+    padding: 0.75rem;
+    text-decoration: none;
+    
+
+}
+img {
+    max-width: 300px;
+    
+    
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    
+}
