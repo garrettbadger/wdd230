@@ -6,4 +6,10 @@
     div:nth-child(3){
         grid-column: span 1;
     }
+    article{
+        grid-template-columns: 1fr;
+    }
+    .image{
+        grid-column: span 1;
+    }
 }

@@ -1,11 +1,16 @@
 @media only screen and (min-width: 37.5em){
     nav ul { display: flex;}
     nav ul li {flex: 1 1 100%;}
-}
+
 main{
     grid-template-columns: 1fr 1fr;
     
 }
 div:nth-child(3){
     grid-column: span 2;
+}
+
+.image{
+    grid-column: span 1;
+}
 }
