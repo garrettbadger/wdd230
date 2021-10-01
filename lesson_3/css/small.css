@@ -5,8 +5,8 @@
 --dark-jungle-green: #00120bff;
 */
 body {
-    font-size: 16px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    font-size: 18px;
+    font-family:'Montserrat', sans-serif
 }
 header, footer {
     background-color: #7dde92ff;
@@ -36,8 +36,7 @@ nav a:hover {
 }
 nav ul {
     list-style-type: none;
-    margin: none;
-    padding: none;
+    
     
     
 }
@@ -60,4 +59,10 @@ main {
     display: grid;
     grid-template-columns: 1fr;
     
+}
+div{
+    padding: 10px;
+}
+.index{
+    grid-column: span 2;
 }

@@ -6,3 +6,6 @@ main{
     grid-template-columns: 1fr 1fr;
     
 }
+div:nth-child(3){
+    grid-column: span 2;
+}
