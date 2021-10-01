@@ -26,6 +26,8 @@ nav {
     background-color: #387780ff;
     text-align: center;
     border-radius: 20px;
+    max-width: 60%;
+    margin: 0 auto;
    
     
     
@@ -51,7 +53,7 @@ nav ul li a {
 
 }
 img {
-    max-width: 300px;
+    max-width: 100%;
     
     
 }
@@ -65,4 +67,10 @@ div{
 }
 .index{
     grid-column: span 2;
+}
+main div {
+    margin: 0.5rem;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 0 1rem;
+    background-color: rgb(235, 234, 231);
 }
