@@ -13,4 +13,8 @@ div:nth-child(3){
 .image{
     grid-column: span 1;
 }
+header, main, footer {
+	max-width: 60%;
+	
+}
 }

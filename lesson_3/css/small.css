@@ -18,7 +18,7 @@ header, footer {
 
 }
 header, main, footer {
-	max-width: 60%;
+	max-width: 100%;
 	margin: 0 auto;
 }
 
@@ -38,6 +38,7 @@ nav a:hover {
 }
 nav ul {
     list-style-type: none;
+    padding: 0;
     
     
     
