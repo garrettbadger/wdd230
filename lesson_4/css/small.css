@@ -1,0 +1,68 @@
+header, footer {
+    background-color: #7dde92ff;
+    display:block;
+    
+}
+header img {
+    max-width: 200px;
+    
+}
+header {
+    display: flex;
+    flex: 1;
+    
+}
+header h1{
+    flex: auto;
+    
+}
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #555;
+    
+}
+
+nav {
+    background-color: #00120bff;
+    font-family: Verdana, sans-serif;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+nav ul li a {
+    display: block;
+    padding: 0.8rem 2%;
+    text-decoration: none;
+    color: #f3c178ff;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+
+
+nav ul li.active a {background-color: rgba(0, 0, 0, 0.2); color: #fff;}
+
+nav ul li a:hover {
+    background-color: #387780ff;
+}
+
+nav ul.hide{
+    display: none;
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
