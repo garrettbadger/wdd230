@@ -4,8 +4,12 @@ header, footer {
     text-align: center;
     
 }
+body {
+    font-size: 18px;
+    font-family:'Montserrat', sans-serif
+}
 header img {
-    max-width: 200px;
+    max-width: 150px;
     
 }
 header {
@@ -71,10 +75,13 @@ nav ul.hide{
 }
 
 main{
-    max-width: 80%;
+    max-width: 100%;
     margin: 0 auto;
 }
-
+footer {
+    padding: 1rem;
+    font-size: 1.4rem;
+}
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {

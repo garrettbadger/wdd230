@@ -3,7 +3,7 @@ function toggleMenu(){
     document.getElementById("primaryNav").classList.toggle("hide");
 }
 
-let options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
     
-const today = new Date();
-document.querySelector("#date").textContent = today.toLocaleDateString('en-UK', options);
+let today = new Date();
+document.getElementById("date").textContent = today.toLocaleDateString('en-UK', options);
