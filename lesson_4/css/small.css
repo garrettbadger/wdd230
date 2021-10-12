@@ -57,10 +57,7 @@ nav ul li a {
     border-top: 1px solid rgba(0, 0, 0, 0.3);
     
 }
-primarynav{
-    display:flex;
 
-}
 
 
 
@@ -71,7 +68,8 @@ nav ul li a:hover {
 }
 
 nav ul.hide{
-    display: none;
+    display:none;
+    margin: 0 auto
 }
 .content {
     
@@ -80,11 +78,13 @@ nav ul.hide{
     margin-bottom: 1em;
     font-family: Montserrat, sans-serif;
     display:block;
+    
 }
 
 main{
     max-width: 100%;
     margin: 0 auto;
+    padding: 1rem;
 }
 footer {
     padding: 1rem;
