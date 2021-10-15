@@ -1,0 +1,99 @@
+header, footer {
+    background-color: #7dde92ff;
+    display:block;
+    text-align: center;
+    
+}
+body {
+    font-size: 18px;
+    font-family:'Montserrat', sans-serif
+}
+header img {
+    max-width: 150px;
+    float:left;
+    
+    
+}
+
+
+header{
+    padding:0.5rem;
+    font-size: 1rem;
+    
+}
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #f3c178ff;
+    
+}
+
+nav {
+    background-color: #00120bff;
+    font-family: Verdana, sans-serif;
+    
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    
+    justify-content: center;
+    
+
+}
+
+
+nav ul li a {
+    display: block;
+    padding: 0.8rem 2%;
+    text-decoration: none;
+    color: #f3c178ff;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    
+}
+
+
+
+
+nav ul li.active a {background-color: rgba(0, 0, 0, 0.2); color: #fff;}
+
+nav ul li a:hover {
+    background-color: #387780ff;
+}
+
+nav ul.hide{
+    display:none;
+    margin: 0 auto
+}
+.content {
+    
+    border: 2px solid black;
+    padding: 5em;
+    margin-bottom: 1em;
+    font-family: Montserrat, sans-serif;
+    display:block;
+    
+}
+
+main{
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+footer {
+    padding: 1rem;
+    font-size: 1.4rem;
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
