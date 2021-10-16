@@ -1,5 +1,5 @@
 
-@media only screen and (min-width: 43rem) {
+@media only screen and (min-width: 48rem) {
 
     nav button {
         display: none;
@@ -36,5 +36,39 @@
     main{
         max-width: 80%;
         margin: 0 auto;
+    }
+     .article img {
+        float: right;
+        max-width: 50%;
+        max-height: 50%;
+        padding: 1rem;
+        
+        
+        
+    }
+    .article h3 {
+        text-align: center;
+    }
+    .article p {
+        text-align: justify;
+    }
+    .forecast{
+        display: flex;
+        padding: 2rem;
+        
+    }
+    .forecast section{
+        flex: 1 1 auto;
+        text-align: center;
+        background-color: lightskyblue;
+        padding: 2rem;
+        border: 1px black solid
+    }
+    .contact img{
+        max-width: 50%;
+        float: left;
+        overflow: hidden;
+        padding: 1rem;
+        display:block;
     }
 } 
