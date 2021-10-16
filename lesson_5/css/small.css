@@ -74,7 +74,7 @@ nav ul.hide{
 .content {
     
     border: 2px solid black;
-    padding: 5em;
+    padding: 2em;
     margin-bottom: 1em;
     font-family: Montserrat, sans-serif;
     display:block;
@@ -90,7 +90,37 @@ footer {
     padding: 1rem;
     font-size: 1.4rem;
 }
+.active {
+    color: white;
+    text-decoration-line: underline;
+}
+div img {
+    width: 100%;
+}
+.herodiv{
+    position: relative;
+}
+.overlay{
+    position:absolute;
+    top: 25px;
+    left: 50px;
+    background: radial-gradient(rgb(14, 198, 211, .7), rgb(197, 199, 176));
+    border: 1px solid black;
+    padding: 1rem;
 
+}
+.forecast{
+    display: flex;
+    padding: 2rem;
+    
+}
+.forecast section{
+    flex: 1 1 auto;
+    text-align: center;
+    background-color: lightskyblue;
+    padding: 2rem;
+    border: 1px black solid
+}
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
     content: "";

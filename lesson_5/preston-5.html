@@ -26,8 +26,8 @@
     <nav>
         <button onclick="toggleMenu()">&#9776; Menu</button>
         <ul id="primaryNav" class="hide">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Preston</a></li>
+            <li><a href="#" >Home</a></li>
+            <li><a href="#"class="active">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
             <li><a href="#">Fish Haven</a></li>
             <li><a href="#">Storm Center</a></li>
@@ -35,9 +35,32 @@
         </ul>
     </nav>
     <main>
-        <div class = "content">Hero image/ weather summary</div>
-        <div class = "content">5 Day forecast</div>
-        <div class = "content">article</div>
+        <div class = "herodiv">
+            <img src="images/hero_image.jpg" alt="hero image">
+            <section class="overlay">
+                <h2>Weather Summary</h2>
+                <p>Currently: Sunny</p>
+                <p>High: 76 F</p>
+                <p>Wind Chill: F</p>
+                <p>Humidity: 69%</p>
+                <p>Wind Speed: 5mph</p>
+
+            </section>
+        
+        </div>
+        
+        <div class = "forecast">
+            <section>Sun <p>76F</p></section>
+            <section>Mon <p>79F</p></section>
+            <section>Tue <p>75F</p></section>
+            <section>Wed <p>73F</p></section>
+            <section>Thu <p>70F</p></section>
+        </div>
+        <div class = "article">
+            <img src="images/park_pic.jpg" alt="picture of park">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
+        </div>
+
         <div class = "content">contact information</div>
     </main>
     <footer>
