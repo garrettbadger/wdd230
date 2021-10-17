@@ -110,8 +110,21 @@ div h2{
     left: 50px;
     background: radial-gradient(rgb(14, 198, 211, .7), rgb(197, 199, 176));
     border: 1px solid black;
-    padding: 1rem;
+    padding: .2rem;
 
+
+}
+section{
+    
+    width: 150px;
+    height: 150px;
+    overflow:scroll;
+}
+section h2{
+    font-size: 18px;
+}
+section p{
+    font-size: 14px;
 }
 .forecast{
     display: none;

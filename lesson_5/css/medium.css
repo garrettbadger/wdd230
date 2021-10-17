@@ -71,4 +71,16 @@
         padding: 1rem;
         display:block;
     }
+    section{
+    
+        width: auto;
+        height: auto;
+        overflow: auto;
+    }
+    section h2{
+        font-size: 28px;
+    }
+    section p{
+        font-size: 18px;
+    }
 } 
