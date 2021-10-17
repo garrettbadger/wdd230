@@ -12,22 +12,23 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="js/script.js" defer></script>
     <link rel="shortcut icon" href="favicon2.ico">
     <title>South East Idaho Community-Preston</title>
 </head>
 <body>
-    <header>
+    <header class="clearfix">
         <img src="images/weatherlogo_wdd230.png" alt="Weather site logo">
         <h1 class="header">South East Idaho Community</h1>
         <div class="">For the Community, By the Community</div>
         
     </header>
-    <nav class="">
+    <nav>
         <button onclick="toggleMenu()">&#9776; Menu</button>
         <ul id="primaryNav" class="hide">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Preston</a></li>
+            <li><a href="#" >Home</a></li>
+            <li><a href="#"class="active">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
             <li><a href="#">Fish Haven</a></li>
             <li><a href="#">Storm Center</a></li>
@@ -35,11 +36,68 @@
         </ul>
     </nav>
     <main>
-        <div class = "content">Hero image/ weather summary</div>
-        <div class = "content">5 Day forecast</div>
-        <div class = "content">article</div>
-        <div class = "content">contact information</div>
+        <div><h2>The Town of Preston</h2></div>
+        <div class = "herodiv">
+            
+            <img src="images/hero_image.jpg" alt="hero image">
+            <section class="overlay">
+                <h2>Weather Summary</h2>
+                <p>Currently: Sunny</p>
+                <p>High: 76 F</p>
+                <p>Wind Chill: F</p>
+                <p>Humidity: 69%</p>
+                <p>Wind Speed: 5mph</p>
+
+            </section>
+        
+        </div>
+        
+        <div class = "forecast">
+            <section>Sun <p>76F</p></section>
+                
+            <section>Mon <p>79F</p></section>
+            <section>Tue <p>75F</p></section>
+            <section>Wed <p>73F</p></section>
+            <section>Thu <p>70F</p></section>
+        </div>
+        <div class = "article">
+            <h3>Founder's Day</h3>
+            <img  src="images/park_pic.jpg" alt="picture of park">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
+        </div>
+
+        <div class="contact">
+            <picture>
+                <img src="images/idaho_map.jpeg" alt="map of idaho">
+            </picture>
+            <ul>
+                <li> 
+                    <h3> South East Idaho Community</h3>
+                </li>
+                <li><i class="fa fa-map-marker" style="font-size:24px;"></i> 30 N 1st E</li>
+                <li>Preston, ID 83263</li>
+                <li>
+                    <i class="fa fa-phone" style="font-size:24px;"></i> 999 999 9999</li>
+                <li>seidahocommunity@id.com</li>
+                <li>
+                    <a href="https://www.facebook.com/"> <i class="fa fa-facebook-square" style="font-size:48px;"></i></a>
+                   
+                    <a href="https://www.pinterest.com/"> <i class="fa fa-pinterest-square" style="font-size:48px;"></i></a>
+                   
+                    <a href="https://web.whatsapp.com/"><i class="fa fa-whatsapp" style="font-size:48px;"></i></a>
+                    
+                    <a href="https://twitter.com/?lang=en"><i class="fa fa-twitter-square" style="font-size:48px;"></i></a>
+                    
+                </li>
+
+            </ul>
+        </div>
     </main>
+    <div id="pancakes">
+        <h2>Pancakes in the Park Saturday at 9:00 a.m.!</h2>
+        <p>Bring your friends and family to enjoy some delicious pancakes!</p>
+        <span class="exit"> X Exit</span>
+    </div>
     <footer>
         &copy;2021 seidahocommunity | Garrett Badger
         <br>
