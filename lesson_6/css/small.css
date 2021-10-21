@@ -111,14 +111,17 @@ div h2{
     background: radial-gradient(rgb(14, 198, 211, .7), rgb(197, 199, 176));
     border: 1px solid black;
     padding: .2rem;
+    
 
 
 }
 section{
     
-    width: 150px;
-    height: 150px;
-    overflow:scroll;
+    max-width: auto;
+    
+    
+    
+    
 }
 section h2{
     font-size: 18px;
@@ -134,13 +137,14 @@ section p{
     padding: 1.5rem;
     border: 1px solid black;
     overflow: hidden;
+    padding-top: 5rem;
 }
 
 .contact {
     background-color: lightskyblue;
     padding: 1.5rem;
     margin: 20px;
-    overflow: hidden;
+    
 }
 .contact ul li{
     list-style-type: none;
