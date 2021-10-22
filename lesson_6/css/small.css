@@ -110,7 +110,7 @@ div h2{
     left: 50px;
     background: radial-gradient(rgb(14, 198, 211, .7), rgb(197, 199, 176));
     border: 1px solid black;
-    padding: .2rem;
+    padding: .75rem;
     
 
 
@@ -164,6 +164,7 @@ section p{
     padding: 1em;
     position: fixed;
     top: 0;
+    width: 100%;
     
 }
 /*----- Clearfix: Force an Element not to collapse -----*/

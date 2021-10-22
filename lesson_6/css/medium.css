@@ -71,6 +71,9 @@
         padding: 1rem;
         display:block;
     }
+    .contact{
+        overflow: hidden;
+    }
     section{
     
         width: auto;
