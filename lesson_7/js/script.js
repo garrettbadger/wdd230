@@ -1,3 +1,4 @@
+
 function toggleMenu(){
     
     document.getElementById("primaryNav").classList.toggle("hide");
@@ -17,3 +18,9 @@ document.querySelector('.exit').addEventListener('click', () => {
     document.querySelector("#pancakes").style.display = "none"; 
     
 }, false);
+
+storage = Window.localStorage;
+day1 = storage.setItem('date' JSON.stringify(today))
+
+
+
