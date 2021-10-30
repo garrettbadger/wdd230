@@ -19,8 +19,6 @@ document.querySelector('.exit').addEventListener('click', () => {
     
 }, false);
 
-storage = Window.localStorage;
-day1 = storage.setItem('date' JSON.stringify(today))
 
 
 
