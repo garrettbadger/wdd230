@@ -1,0 +1,25 @@
+@media only screen and (min-width: 60rem) {
+
+    header img {
+        max-width: 250px;
+        
+        
+    }
+    header{
+        padding:1.5rem;
+    }
+    nav ul {
+        align-content: center;
+    }
+    body{
+        font-size: 25px;;
+    }
+    .gallery {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .gallery figure img:hover{
+        box-shadow: 0 0 50px #333;
+    }
+    
+
+}

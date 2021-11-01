@@ -1,0 +1,202 @@
+header, footer {
+    background-color: #7dde92ff;
+    display:block;
+    text-align: center;
+    
+}
+body {
+    font-size: 16px;
+    font-family:'Montserrat', sans-serif
+}
+header img {
+    max-width: 150px;
+    float:left;
+    
+    
+}
+
+
+header{
+    padding:0.5rem;
+    font-size: 1rem;
+    
+}
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #f3c178ff;
+    
+}
+
+nav {
+    background-color: #00120bff;
+    font-family: Verdana, sans-serif;
+    
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    
+    justify-content: center;
+    
+
+}
+
+
+nav ul li a {
+    display: block;
+    padding: 0.8rem 2%;
+    text-decoration: none;
+    color: #f3c178ff;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    
+}
+
+
+
+
+nav ul li.active a {background-color: rgba(0, 0, 0, 0.2); color: #fff;}
+
+nav ul li a:hover {
+    background-color: #387780ff;
+}
+
+nav ul.hide{
+    display:none;
+    margin: 0 auto
+}
+.content {
+    
+    border: 2px solid black;
+    padding: 2em;
+    margin-bottom: 1em;
+    font-family: Montserrat, sans-serif;
+    display:block;
+    
+}
+
+main{
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+footer {
+    padding: 1rem;
+    font-size: 1.4rem;
+}
+.active {
+    color: white;
+    text-decoration-line: underline;
+}
+div img {
+    width: 100%;
+}
+.herodiv{
+    position: relative;
+}
+div h2{
+    text-align: center;
+    font-size: 30px;
+}
+.overlay{
+    position:absolute;
+    top: 25px;
+    left: 50px;
+    background: radial-gradient(rgb(14, 198, 211, .7), rgb(197, 199, 176));
+    border: 1px solid black;
+    padding: .75rem;
+    
+
+
+}
+
+    
+    
+    
+    
+    
+    
+
+section h2{
+    font-size: 18px;
+}
+section p{
+    font-size: 14px;
+}
+.forecast{
+    display: none;
+}
+.article {
+    background-color: lightskyblue;
+    padding: 1.5rem;
+    border: 1px solid black;
+    overflow: hidden;
+    padding-top: 5rem;
+}
+
+.contact {
+    background-color: lightskyblue;
+    padding: 1.5rem;
+    margin: 20px;
+    
+}
+.contact ul li{
+    list-style-type: none;
+    padding: .5rem;
+    font-size: 20px;;
+}
+.contact img{
+    display: none;
+}
+
+
+
+#pancakes {
+    display: none;
+    background-color: rgb(165, 210, 238);
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+}
+
+.gallery{
+    display:grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    text-align: center;
+}
+figure img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+figure img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+  }
+  .gallery figure img{
+      display: block;
+      max-width: 100%;
+      
+      
+  }
+  .gallery figure{
+      border-radius: 4px;
+      border-style:solid;
+      border-color: darkgrey;
+      padding: .5rem
+  }
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
