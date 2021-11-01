@@ -6,6 +6,10 @@ table {
     margin: 10px auto;
     border: thin solid black;
     box-shadow: 0 0 40px #ddd;
+    width: 500px;
+    height: 500px;
+    font-size: 24px;
+    
 
 }
 caption {
@@ -38,4 +42,11 @@ tbody tr:nth-child(odd){
 tbody tr:nth-child(4) td:nth-child(3){
     background-color:#628ca6 ;
     color: white;
+}
+@media only screen and (max-width: 48rem) {
+    table{
+        width:fit-content;
+        height:fit-content;
+        font-size: 20px;
+    }
 }
