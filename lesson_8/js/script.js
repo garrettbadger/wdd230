@@ -20,7 +20,7 @@ document.querySelector('.exit').addEventListener('click', () => {
 }, false);
 
 function adjustRating(rating) {
-    document.getElementById("ratingvalue").innerHTML = rating;
+    document.getElementById("stormvalue").innerHTML = rating;
 }
 
 
