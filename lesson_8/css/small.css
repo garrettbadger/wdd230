@@ -194,6 +194,12 @@ figure img {
       border-color: darkgrey;
       padding: .5rem
   }
+
+  .flexly {
+	display: flex;
+	align-items: center;
+}
+
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
     content: "";
