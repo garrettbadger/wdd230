@@ -261,6 +261,9 @@ form label.top input:required:valid{
     height: 200px;
     text-align: initial;
 } */
+h4{
+    margin-bottom: -1px;
+}
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
