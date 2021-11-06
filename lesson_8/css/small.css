@@ -208,14 +208,14 @@ form fieldset {
     padding: .5rem 2%;
 }
 form legend{
-    color:lightskyblue;
+    color:#00120bff;
     margin: 0 1rem;
     padding: 0 .5rem;
 }
 form label.top, form div{
     display: block;
     padding-top: 1rem;
-    color: lightskyblue;
+    color: #00120bff;
     font-size: .8rem;
 }
 
