@@ -198,22 +198,24 @@ figure img {
   .flexly {
 	display: flex;
 	align-items: center;
+    padding-top: 1rem;
+    padding-bottom: .25rem;
 }
 form fieldset {
     margin: 2rem 0;
-    border: 1px solid #445ba9;
+    border: 1px solid #7dde92ff;
     border-radius: 10px;
     padding: .5rem 2%;
 }
 form legend{
-    color:#445ba9;
+    color:lightskyblue;
     margin: 0 1rem;
     padding: 0 .5rem;
 }
 form label.top, form div{
     display: block;
     padding-top: 1rem;
-    color: #9c2c13;
+    color: lightskyblue;
     font-size: .8rem;
 }
 
@@ -224,10 +226,10 @@ form label.top input, form label.top select {
     border: solid 1px #999;
     border-radius: 4px;
     padding: .75rem;
-    color: #555;
+    color: #00120bff;
     width: 100%;
     max-width: 20rem;
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgba(106, 170, 243, 0.1);
 }
 
 form label.sbs{
@@ -238,8 +240,8 @@ form label.sbs{
 }
 form input.submitBtn{
     border: none;
-    background-color: #9c2c13;
-    color: white;
+    background-color: #00120bff;
+    color: #f3c178ff;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
     margin: 0 0 2rem 2%;
@@ -248,12 +250,17 @@ form input.submitBtn{
 }
 
 form label.top input:required{
-    border-left: red solid 6px;
+    border-left: #f3c178ff solid 6px;
 }
 
 form label.top input:required:valid{
-    border-left: green solid 6px;
+    border-left: #7dde92ff solid 6px;
 }
+/* form label.comment input{
+    width: 400px;
+    height: 200px;
+    text-align: initial;
+} */
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
