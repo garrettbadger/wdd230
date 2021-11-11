@@ -21,12 +21,12 @@ tfoot td {
     caption-side: bottom;
     background-color:#7fb9c2 ;
 }
-tr:first-child th{
+thead tr:first-child th{
     background-color:#7fb9c2 ;
     color: black;
 
 }
-tr:nth-child(2) th{
+thead tr:nth-child(2) th{
     background-color: #628ca6 ;
     color: white;
 }
