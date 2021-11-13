@@ -271,3 +271,33 @@ fieldset h4{
     display: table;
     clear: both;
   }
+
+  /* THIS IS CODE FOR THE JSON CARD SECTION */
+  body{
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.cards{
+    display: grid;
+    
+    grid-template-columns: 1fr;
+    
+}
+.cards section{
+    display: block;
+    background-color: lightskyblue;
+    padding: 2rem;
+    margin: 5px;
+    text-align: center;
+    border:1px solid rgba(0, 0, 0, 0.39) ;
+}
+.cards h2{
+    color:rgb(80, 41, 255)
+}
+.cards img{
+    max-width: 100%;
+}
+
+

@@ -92,4 +92,28 @@
     .gallery {
         grid-template-columns: 1fr 1fr;
     }
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+        
+        
+    }
+    .cards section{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        width: 100%;
+    }
+    .cards section:nth-child(odd) {
+        flex-direction: row-reverse;
+    }
+    .cards section img{
+        max-width: 100%;
+        padding: 1.5rem; 
+    }
+    .cards section div p{
+        max-width: 100%;
+        padding: 1.5rem; 
+    }
+    
 } 
