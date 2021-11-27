@@ -256,6 +256,22 @@ form label.top input:required{
 form label.top input:required:valid{
     border-left: #7dde92ff solid 6px;
 }
+
+.events div section {
+    background-color: lightskyblue;
+    text-decoration: none;
+    text-align: center;
+    border: solid 1px black;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    align-items: center;
+}
+.events div section li {
+    text-decoration: none;
+    list-style-type: none;
+    padding: .5rem;
+}
 /* form label.comment input{
     width: 400px;
     height: 200px;
