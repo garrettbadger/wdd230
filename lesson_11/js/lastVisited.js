@@ -1,8 +1,8 @@
 let now = Date.now()
 
 let day1 = localStorage.setItem('date', now)
-let test = localStorage.getItem('date')
-// alert(test)
+
+
 
 
 

@@ -60,7 +60,6 @@ fetch(requestURL)
         card.appendChild(data)
 
         document.querySelector('div.cards').appendChild(card);
-        // document.querySelector('div.cards').appendChild(data);
-        // document.querySelector('div.cards').appendChild(img)
+        
     }
   });

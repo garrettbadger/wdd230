@@ -1,5 +1,5 @@
 
-@media only screen and (min-width: 48rem) {
+@media only screen and (min-width: 52rem) {
 
     nav button {
         display: none;
@@ -35,7 +35,7 @@
     }
     main{
         max-width: 80%;
-        margin: 0 auto;
+        
     }
      .article img {
         float: right;
@@ -103,12 +103,15 @@
         flex-direction: row;
         justify-content: flex-start;
         width: 100%;
+        overflow:visible;
     }
     .cards section:nth-child(odd) {
         flex-direction: row-reverse;
     }
     .cards section img{
+        display: block;
         max-width: 100%;
+        width:auto;
         padding: 1.5rem; 
     }
     .cards section div p{

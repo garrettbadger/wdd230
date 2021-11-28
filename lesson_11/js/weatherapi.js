@@ -16,11 +16,7 @@ fetch(apiURL)
             document.querySelector(`.forecast_icon${index}`).setAttribute('src', imagesrc)
             document.querySelector(`.forecast_icon${index}`).setAttribute('alt', desc)
         })
-          // note the concatenation
-          // note how we reference the weather array
-        // document.getElementById('imagesrc').textContent = imagesrc;  // informational specification only
-        // document.getElementById('icon').setAttribute('src', imagesrc);  // focus on the setAttribute() method
-        // document.getElementById('icon').setAttribute('alt', desc);
+         
 
         
     });
@@ -43,13 +39,10 @@ fetch(apiURL2)
         const humidity = jsObject.main.humidity
         document.getElementById('humidity').textContent = humidity
         // windchill
-        let t = document.getElementById("temperature").innerText;
-    let s = document.getElementById("wind").innerText;
-    let temp1 = Number(t)
-    let speed = Number(s)
+        
 
-    var w = 0.00
-    if (temp1 <= 50 & speed > 3) {var w = 35.74 + (0.6215 * temp1) - (35.75 * (speed ** 0.16)) + (0.4275 * temp1 * (speed ** 0.16))};
+    let w = 0.00
+    if (maxTemp <= 50 & windSpeed > 3) { w = 35.74 + (0.6215 * maxTemp) - (35.75 * (windSpeed ** 0.16)) + (0.4275 * maxTemp * (windSpeed ** 0.16))};
     document.getElementById("windchill").textContent = Math.round(w, 2);
 
     })

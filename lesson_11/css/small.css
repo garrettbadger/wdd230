@@ -2,6 +2,7 @@ header, footer {
     background-color: #7dde92ff;
     display:block;
     text-align: center;
+    padding:0.5rem;
     
 }
 body {
@@ -16,11 +17,7 @@ header img {
 }
 
 
-header{
-    padding:0.5rem;
-    font-size: 1rem;
-    
-}
+
 
 nav button {
     margin: .2rem 2%;
@@ -131,6 +128,9 @@ section p{
 }
 .forecast{
     display: none;
+}
+.forecast_title{
+    text-align: center;
 }
 .article {
     background-color: lightskyblue;
@@ -290,17 +290,13 @@ fieldset h4{
   }
 
   /* THIS IS CODE FOR THE JSON CARD SECTION */
-  body{
-    font-size: 1rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
 
 
 .cards{
     display: grid;
     
     grid-template-columns: 1fr;
-    
+    padding: 1rem;
 }
 .cards section{
     display: block;
