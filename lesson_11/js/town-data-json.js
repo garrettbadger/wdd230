@@ -24,8 +24,8 @@ fetch(requestURL)
         p1.textContent = towns[i2].motto;
         p2.textContent = 'Year founded: ' + towns[i2].yearFounded;
         p3.textContent = 'Current population: ' + towns[i2].currentPopulation;
-        p4.textContent = 'Average rainfal: ' + towns[i2].averageRainfall;
-        img.setAttribute('src', 'images/card_fish_haven.jpg');
+        p4.textContent = 'Average rainfall: ' + towns[i2].averageRainfall;
+        img.setAttribute('src', 'images/card_fish_haven_cropped.jpg');
         img.setAttribute('alt', h2.textContent);
         }
         else if (i == 2){
@@ -34,8 +34,8 @@ fetch(requestURL)
         p1.textContent = towns[i2].motto;
         p2.textContent = 'Year founded: ' + towns[i2].yearFounded;
         p3.textContent = 'Current population: ' + towns[i2].currentPopulation;
-        p4.textContent = 'Average rainfal: ' + towns[i2].averageRainfall;
-        img.setAttribute('src', 'images/card_preston.jpg');
+        p4.textContent = 'Average rainfall: ' + towns[i2].averageRainfall;
+        img.setAttribute('src', 'images/card_preston_cropped.jpg');
         img.setAttribute('alt', h2.textContent);
         
         }
@@ -45,7 +45,7 @@ fetch(requestURL)
         p1.textContent = towns[i2].motto;
         p2.textContent = 'Year founded: ' + towns[i2].yearFounded;
         p3.textContent = 'Current population: ' + towns[i2].currentPopulation;
-        p4.textContent = 'Average rainfal: ' + towns[i2].averageRainfall;
+        p4.textContent = 'Average rainfall: ' + towns[i2].averageRainfall;
         img.setAttribute('src', 'images/card_soda_springs.jpg');
         img.setAttribute('alt', h2.textContent);
         }

@@ -153,6 +153,7 @@ section p{
 }
 .contact img{
     display: none;
+    margin-right: 10rem;
 }
 
 
@@ -263,7 +264,7 @@ form label.top input:required:valid{
     text-align: center;
     border: solid 1px black;
     padding: 1rem;
-    border-radius: 1rem;
+    
     margin-bottom: 2rem;
     align-items: center;
 }
