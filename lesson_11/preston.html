@@ -15,9 +15,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="js/script.js" defer></script>
     <script src="js/weatherapi.js" defer></script>
+    <script src="js/preston-events.js" defer></script>
+
     <!-- <script src="js/windchill.js" defer></script> -->
     <link rel="shortcut icon" href="favicon2.ico">
-    <title>South East Idaho Community-Preston</title>
+    <title>Preston-South East Idaho Community</title>
 </head>
 <body>
     <header class="clearfix">
@@ -30,11 +32,11 @@
         <button onclick="toggleMenu()">&#9776; Menu</button>
         <ul id="primaryNav" class="hide">
             <li><a href="index.html" >Home</a></li>
-            <li><a href="preston-10.html" class="active">Preston</a></li>
-            <li><a href="#">Soda Springs</a></li>
-            <li><a href="#">Fish Haven</a></li>
+            <li><a href="preston.html" class="active">Preston</a></li>
+            <li><a href="soda-springs.html">Soda Springs</a></li>
+            <li><a href="fish-haven.html">Fish Haven</a></li>
             <li><a href="stormcenter.html">Storm Center</a></li>
-            <li><a href="gallery-10.html">Gallery</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
         </ul>
     </nav>
     <main>
@@ -42,7 +44,7 @@
         <div class = "herodiv">
             
             <img src="images/preston_hero(small).jpg" alt="hero image" sizes="100vw"
-            srcset="images/preston_hero(small).jpg 600w, images/preston_hero(medium).jpg 1080w, images\preston_hero(large).jpg 1920w"
+            srcset="images/preston_hero(small).jpg 600w, images/preston_hero(medium).jpg 1080w, images/preston_hero(large).jpg 1920w"
             >
         
             <section class="overlay">
@@ -56,14 +58,18 @@
             </section>
         
         </div>
-        
+        <h2 class="forecast_title">5 Day Forecast</h2>
         <div class = "forecast">
-            <section><h3 class="day1">Sun</h3> <img src="" alt="" class="forecast_icon1"> <p class="forecast_weather1"></p></section>
+            
+            <section><h3 class="day1">Sun</h3> <img src="#" alt="" class="forecast_icon1"> <p class="forecast_weather1"></p></section>
                 
-            <section><h3 class="day2">Mon</h3> <img src="" alt="" class="forecast_icon2"> <p class="forecast_weather2"></p></section>
-            <section><h3 class="day3">Tue</h3> <img src="" alt="" class="forecast_icon3"> <p class="forecast_weather3"></p></section>
-            <section><h3 class="day4">Wed</h3> <img src="" alt="" class="forecast_icon4"> <p class="forecast_weather4"></p></section>
-            <section><h3 class="day5">Thu</h3> <img src="" alt="" class="forecast_icon5"> <p class="forecast_weather5"></p></section>
+            <section><h3 class="day2">Mon</h3> <img src="#" alt="" class="forecast_icon2"> <p class="forecast_weather2"></p></section>
+            <section><h3 class="day3">Tue</h3> <img src="#" alt="" class="forecast_icon3"> <p class="forecast_weather3"></p></section>
+            <section><h3 class="day4">Wed</h3> <img src="#" alt="" class="forecast_icon4"> <p class="forecast_weather4"></p></section>
+            <section><h3 class="day5">Thu</h3> <img src="#" alt="" class="forecast_icon5"> <p class="forecast_weather5"></p></section>
+        </div>
+        <div class="events">
+            
         </div>
         <div class = "article">
             <h3>Founder's Day</h3>
@@ -86,13 +92,13 @@
                 <li>
                     <i class="fa fa-envelope-o" style="font-size:24px;"></i> seidahocommunity@id.com</li>
                 <li>
-                    <a href="https://www.facebook.com/"> <i class="fa fa-facebook-square" style="font-size:48px;"></i></a>
+                    <a href="https://www.facebook.com/" target="_blank"> <i class="fa fa-facebook-square" style="font-size:48px;"></i></a>
                    
-                    <a href="https://www.pinterest.com/"> <i class="fa fa-pinterest-square" style="font-size:48px;"></i></a>
+                    <a href="https://www.pinterest.com/" target="_blank"> <i class="fa fa-pinterest-square" style="font-size:48px;"></i></a>
                    
-                    <a href="https://web.whatsapp.com/"><i class="fa fa-whatsapp" style="font-size:48px;"></i></a>
+                    <a href="https://web.whatsapp.com/" target="_blank"><i class="fa fa-whatsapp" style="font-size:48px;"></i></a>
                     
-                    <a href="https://twitter.com/?lang=en"><i class="fa fa-twitter-square" style="font-size:48px;"></i></a>
+                    <a href="https://twitter.com/?lang=en" target="_blank"><i class="fa fa-twitter-square" style="font-size:48px;"></i></a>
                     
                 </li>
 
@@ -105,7 +111,7 @@
         <span class="exit"> X Exit</span>
     </div>
     <footer>
-        &copy;2021 seidahocommunity | Garrett Badger
+        &copy;2021 seidahocommunity
         <br>
         <span id="date"></span>
         <a href="https://openweathermap.org/">Open Weather Map</a>

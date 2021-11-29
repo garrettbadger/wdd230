@@ -15,8 +15,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="js/script.js" defer></script>
     
-    <script src="js/lazyload.js" defer></script>
-    <script src="js/last_visited.js" defer></script>
+    
     <link rel="shortcut icon" href="favicon2.ico">
     <title>South East Idaho Community-Preston Weather Gallery</title>
 </head>
@@ -31,11 +30,11 @@
         <button onclick="toggleMenu()">&#9776; Menu</button>
         <ul id="primaryNav" class="hide">
             <li><a href="index.html" >Home</a></li>
-            <li><a href="preston-10.html" >Preston</a></li>
-            <li><a href="#">Soda Springs</a></li>
-            <li><a href="#">Fish Haven</a></li>
+            <li><a href="preston.html" >Preston</a></li>
+            <li><a href="soda-springs.html">Soda Springs</a></li>
+            <li><a href="fish-haven.html">Fish Haven</a></li>
             <li><a href="stormcenter.html" class="active">Storm Center</a></li>
-            <li><a href="gallery-10.html" >Gallery</a></li>
+            <li><a href="gallery.html" >Gallery</a></li>
         </ul>
     </nav>
     <main>
@@ -54,7 +53,7 @@
                 
                 <legend>Storm Data</legend>
                 <label class="top">Date of Storm <input type="date" name="stormDate"></label>
-                <label class="top">Type of Storm <input type="list" name="stormlist" list="storms"> </label>
+                <label class="top">Type of Storm <input  name="stormlist" list="storms"> </label>
                 <label class="flexly" for="stormsev">Storm Severity: &nbsp;&nbsp;&nbsp;
                      <input type="range" id="stormsev" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                     <span id="stormvalue">5</span>
@@ -98,26 +97,22 @@
 
             <input type="submit" value="Report Storm" class="submitBtn">
 
-
+            <datalist id="storms">
+                <option value="Tornado"></option>
+                <option value="Thunderstorm"></option>
+                <option value="Hurricane"></option>
+                <option value="Hail"></option>
+                <option value="Flash Flood"></option>
+            </datalist>
 
 
 
         </form>
-        <datalist id="storms">
-            <option value="Tornado"></option>
-            <option value="Thunderstorm"></option>
-            <option value="Hurricane"></option>
-            <option value="Hail"></option>
-            <option value="Flash Flood"></option>
-        </datalist>
+        
     </main>
-    <div id="pancakes">
-        <h2>Pancakes in the Park Saturday at 9:00 a.m.!</h2>
-        <p>Bring your friends and family to enjoy some delicious pancakes!</p>
-        <span class="exit"> X Exit</span>
-    </div>
+   
     <footer>
-        &copy;2021 seidahocommunity | Garrett Badger
+        &copy;2021 seidahocommunity
         <br>
         <span id="date"></span> <br>
         <span class="last_visited"></span>
