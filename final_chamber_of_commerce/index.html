@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Meridian Chamber of Commerce">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <script src="scripts/weatherapi.js"></script>
+    <link rel="shortcut icon" href="favicon2.ico">
+    <title>Meridian Chamber of Commerce</title>
+</head>
+<body>
+    <header >
+        <div class="heroimg">
+            <img src="" alt="">
+            <h1>Meridian Chamber of Commerce</h1>
+        </div>
+        
+    </header>
+    <nav>
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="meridian.html" >Meridian</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="contant.html">Contact</a></li>
+            <li><a href="join.html">Join</a></li>
+            
+        </ul>
+    </nav>
+    <main>
+        <div class="content">
+            <div class="section1">
+                <div class="events">
+                    <h2>Events</h2>
+                    <ul>
+                        <li>Dec 1st-25th: Light Up Meridian-Community Light Displays</li>
+                        <li>Dec 16th: Winter Festival Band Concert </li>
+                        <li>Dec 20th: 2nd Annual Idaho Community Christmas Sing-Along</li>
+                        <li>Dec 31st: Annual Idaho Potato Drop</li>
+                    </ul>
+                </div>
+                <div class="currently">
+                    <span id="currentTemp"></span>
+                    <span id="currentCondition"></span>
+                    <span id="currentHumidity"></span>
+                </div>
+                <div class="forecast">
+
+                </div>
+                <div class="contact">
+
+                </div>
+            </div>
+            <div class="section2">
+                <div class="whoweare">
+
+                </div>
+
+            </div>
+            <div class="section3">
+                <div class="ads">
+
+                </div>
+
+            </div>
+
+        </div>
+        
+        
+    </main>
+    
+    <footer>
+        &copy;2021 seidahocommunity
+        <br>
+        <span id="date"></span> <br>
+        <span class="last_visited"></span>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+              families: [
+                 'Pacifico', 'Rubik'
+              ]
+            }
+          });
+          </script>
+</body>
+</html>
