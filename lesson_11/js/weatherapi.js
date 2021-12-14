@@ -4,7 +4,7 @@ fetch(apiURL)
     .then((jsObject) => {
         const five = jsObject.list.filter(item => item.dt_txt.includes('18:00:00'));
         const daysOfWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thur', 'Fri', 'Sat']
-        
+        console.log(jsObject)
         five.forEach((forecast, index) =>{
             const day = forecast.dt_txt;
             let newDay = new Date(day).getDay()

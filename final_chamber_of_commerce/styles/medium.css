@@ -1,0 +1,53 @@
+@media only screen and (min-width: 52rem) {
+    /* NAV */
+    nav button {
+        display: none;
+    }
+
+    nav ul.hide{
+        display: block;
+    }
+
+    nav ul {
+        text-align: center;
+        
+    }
+
+    ul#primaryNav{
+        display: flex;
+    }
+    nav ul li{
+        flex: 1 1 auto;
+    }
+
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0, 0, 0, 0.3);
+        padding: .8rem 1rem;
+        font-weight: bold;
+        font-size: 1.25rem;;
+}
+/* MAIN */
+.content{
+    
+    grid-template-columns: 1fr 1fr;
+}
+.section3{
+   grid-column: 1 /span 3;
+   
+}
+
+.contact img{
+    max-width: 50%;
+    float: left;
+    overflow: hidden;
+    padding: 1rem;
+    display:block;
+}
+
+/* FORM */
+.tiers{
+    
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+}

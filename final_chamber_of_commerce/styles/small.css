@@ -1,0 +1,245 @@
+body {
+    font-size: 16px;
+    font-family: 'Rubik', serif;
+    margin: 0 auto;
+}
+header, footer {
+    background-color: #80bd98;
+    display:block;
+    text-align: center;
+    padding:0.5rem;
+    font-family: 'Pacifico', sans-serif;
+    
+}
+
+/* NAV */
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    
+    
+}
+nav {
+    background-color: #A5BD80;
+    font-family: Verdana, sans-serif;
+    
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    
+    justify-content: center; 
+}
+nav ul li a {
+    display: block;
+    padding: 0.8rem 2%;
+    text-decoration: none;
+    color: #000000;
+    border-top: 1px solid #777;
+    
+}
+nav ul li a.active {background-color: #8087BD; color: #fff;}
+
+nav ul li a:hover {
+    background-color: #80BDB7;
+}
+nav ul.hide{
+    display:none;
+    margin: 0 auto
+}
+
+/* MAIN */
+
+main{
+    /* max-width: 100%; */
+    margin: 0 auto;
+    /* padding: 1rem; */
+}
+.content {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 100%;
+}
+.section1 {
+    background-color: cyan;
+    padding: 1rem;
+    display: block;
+    max-width: 100%;
+}
+.section2 {
+    background-color: lightblue;
+    padding: 1rem;
+    max-width: 100%;
+    display: block;
+
+
+}
+.section3{
+    background-color: gray;
+    padding: 1rem;
+    
+
+
+}
+
+.forecast, .currently{
+    display: flex;
+    padding: 2rem;
+    flex-wrap: wrap;
+    
+}
+.forecast section{
+    flex: 15%;
+    text-align: center;
+    background-color: lightskyblue;
+    padding: 2rem;
+    border: 1px black solid;
+    max-width: 100%;
+}
+.currently {
+    flex-direction: column;
+    text-align: center;
+    background-color: lightskyblue;
+    padding: 2rem;
+    border: 1px black solid;
+    max-width: 30%;
+    margin: 0 auto;
+    
+}
+.currently img{
+    width: 100px; 
+    margin: 0 auto;
+     max-width: 100%; 
+     display: block; 
+}
+.currently span{
+    padding: .5rem;
+}
+.contact {
+    background-color: lightskyblue;
+    padding: 1.5rem;
+    margin: 20px;
+    max-width: 100%;
+    
+}
+.contact ul li{
+    list-style-type: none;
+    padding: .5rem;
+    font-size: 20px;;
+}
+.contact picture img{
+    display: none;
+    margin-right: 10rem;
+    max-width: 100%;
+   }
+.whoweare a img{
+    display: block;
+    max-width: 100%;
+}
+.ads img{
+    display: block;
+    max-width: 100%;
+}
+
+/* FORM */
+form{
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: #80bd9841;
+    /* box-shadow: gray; */
+    margin: 10px auto;
+}
+form fieldset {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem auto;
+    border: 1px solid #80bd98;
+    border-radius: 10px;
+    padding: 0 4rem 2rem 2rem;
+    /* background-color:#80bd9841; */
+    max-width: 60%;
+    
+    
+    
+}
+form legend{
+    color:#00120bff;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+    
+}
+form label.top, form div{
+    display: block;
+    padding-top: 1rem;
+    color: #00120bff;
+    font-size: .8rem;
+    
+}
+
+form label.top input, form label.top select {
+    
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #00120bff;
+    width: 100%;
+    max-width: 20rem;
+    background-color: #fff;
+}
+
+form label.sbs{
+    display: block;
+    padding: .75rem 0;
+    color: #555;
+
+}
+form input.submitBtn{
+    border: none;
+    background-color: #80A5BD;
+    color: #000000;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 auto;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label.top input:required{
+    border-left: #f3c178ff solid 6px;
+}
+
+form label.top input:required:valid{
+    border-left: #7dde92ff solid 6px;
+}
+.form-label{
+    text-align: center;
+}
+.tiers{
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+    
+}
+.tiers div{
+    padding: 1rem;
+}
+.tiers div:nth-child(1){
+    background-color:#80BDB7;
+}
+.tiers div:nth-child(2){
+    background-color:#64430688;
+}
+.tiers div:nth-child(3){
+    background-color:#b9b9b9c7;
+}
+.tiers div:nth-child(4){
+    background-color:#f1ca1ca8;
+}

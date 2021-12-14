@@ -1,0 +1,10 @@
+@media only screen and (min-width: 80rem) {
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.section3{
+    grid-column: auto;
+}
+
+}

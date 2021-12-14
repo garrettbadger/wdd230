@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Meridian Chamber of Commerce">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="scripts/script.js"></script>
+    <script src="scripts/weatherapi.js"></script>
+    <script src="scripts/lastVisited.js" defer></script>
+
+    <link rel="shortcut icon" href="favicon2.ico">
+    <title>Meridian Chamber of Commerce</title>
+</head>
+<body>
+    <header >
+        <div class="heroimg">
+            <img src="" alt="">
+            <h1>Meridian Chamber of Commerce</h1>
+        </div>
+        
+    </header>
+    <nav>
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="meridian.html" >Meridian</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="contant.html">Contact</a></li>
+            <li><a href="join.html" class="active">Join</a></li>
+            
+        </ul>
+    </nav>
+    <main>
+        <h2 class="form-label">Join the Chamber of Commerce</h2>
+        <form action="thanks.html">
+            <fieldset>
+                <legend>User Information</legend>
+                <label class="top">First Name <input type="text" name="firstname" pattern="[A-Za-z]{>5}" required></label>
+                <label class="top">Last Name <input type="text" name="lastname" pattern="[A-Za-z]{>5}" required></label>
+                <label class="top" >Title <input type="text" name="title"> </label>
+                <label class="top">Email <input type="email" name="email" placeholder="someone@mail.com" required></label>
+                <label class="top">Phone Number <input type="tel" name="phone" ></label>
+               
+
+
+            </fieldset>
+
+            <fieldset>
+                
+                <legend>Business Information</legend>
+                <label class="top">Business Name <input type="text" name="businessName" required></label>
+                <label class="top">Business Address <input  type ="text" name="businessAddress"></label>
+                <label class="top">Business Website <input type="text" name="businessWebsite"> </label>
+                <label class="comment">Business Description <br> <textarea name="businessDescription" cols="15" rows="10"></textarea></label>
+                
+        
+                <datalist id="tickmarks">
+                    <option value="0">
+                    <option value="1">
+                    <option value="2">
+                    <option value="3">
+                    <option value="4">
+                    <option value="5">
+                    <option value="6">
+                    <option value="7">
+                    <option value="8">
+                    <option value="9">
+                    <option value="10">
+                </datalist>
+                
+            </fieldset>
+
+            <fieldset>
+                <legend>Mermbership</legend>
+                <label class="top"> Membership Tier
+                    <select name="stormLocation">
+                        <option value="" >Select Tier</option>
+                        <option value="nonprofit">Non-profit ($100)</option>
+                        <option value="bronze">Bronze ($200)</option>
+                        <option value="silver">Silver ($400)</option>
+                        <option value="gold">Gold ($1000)</option>
+                        
+                    </select>
+                </label>
+               
+                
+                
+            </fieldset>
+
+            <input type="submit" value="Validate" class="submitBtn">
+
+            
+
+
+
+        </form>
+        <div class="tiers">
+            <div>
+                <h3>Non-profit Tier</h3>
+                <p>The Non-pofit tier allows you to be a part of the Chamber of Commerce and receive all of the default benefits of joining the Chamber. These include things like added publicity on our website, direct contacts with other members of the Chamber, and a spot in the anuual dairy days parade.</p>
+            </div>
+            <div>
+                <h3>Bronze Tier</h3>
+                <p>The Bronze tier includes all of the benefits of the Non-profit Tier plus the inclusion of a directory listing on our webpage as well as a monthly spotlight in a local radio station. </p>
+
+            </div>
+            <div>
+                <h3>Silver Tier</h3>
+                <p>The Silver tier includes all of the benefits of the Non-profit tier and the Bronze tier plus some extra goodies. You now have access to social media posts advertising your site on our facebook and instagram pages. You will also be given increased networking oppotunities with local advertising companies.</p>
+
+            </div>
+            <div>
+                <h3>Gold Tier</h3>
+                <p>The Gold tier includes all of the benefits of all three previous tiers.As a member of the Gilver tier you are now eligible to attend our quartlery business trainings which are put on by members of the Chamber who are exceptionally successful and will share their knowledge and walk through scenarios to help you increase your business's success in our city.</p>
+
+            </div>
+
+        </div>
+    </main>
+
+
+
+
+
+
+
+
+    <footer>
+        &copy;2021 MeridianChamberOfCommerce
+        <br>
+        <span id="date"></span> <br>
+        <span class="last_visited"></span>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+              families: [
+                 'Pacifico', 'Rubik'
+              ]
+            }
+          });
+          </script>
+</body>
+</html>
