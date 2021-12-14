@@ -1,0 +1,54 @@
+{
+    "businesses": [
+        {
+            "name": "Idaho Central Credit Union",
+            "contact": "(208) 846-7000",
+            "logo": "images/iccu.png",
+            "website": "https://www.iccu.com/",
+            "description":"Idaho Central is the premier credit union in Idaho and offers full-service locations throughout the Treasure Valley, Magic Valley, Eastern Idaho, and North Idaho. While growth is vital to our success, we remain focused on our mission, “Helping members achieve financial success.”"
+        },
+        {
+            "name": "TDS Telecom",
+            "contact": "(855) 259-8575",
+            "logo": "images/tds.png",
+            "website": "https://tdsfiber.com/",
+            "description":"Since 1969, TDS has been connecting homes and businesses with fast, reliable Internet, innovative TV, and crystal-clear phone services and is expanding its fiber-optic network to growing communities across the country."
+        },
+        {
+            "name": "Meridian Speedway",
+            "contact": "(208) 888-2813",
+            "logo": "images/meridian-speedway.png",
+            "website": "https://www.meridianspeedway.com/",
+            "description":"Meridian Speedway is a motorsport race track in Meridian, Idaho, United States. The quarter mile in length track, which is paved with asphalt, mostly hosts late model racing, modified racing, and other local-level racing events throughout the year."
+        },
+        {
+            "name": "Boys & Girls Club of Meridian",
+            "contact": "(208) 888-5392",
+            "logo": "images/bglogo.jpg",
+            "website": "https://www.adaclubs.org/",
+            "description":"Our mission is to enable all young people, especially those who need us most, to reach their full potential as productive, caring, responsible citizens."
+        },
+        {
+            "name": "Commercial Tire",
+            "contact": "(208) 888-8807",
+            "logo": "images/Commercial-tire.png",
+            "website": "https://www.commercialtire.com/",
+            "description":"Commercial Tire has been serving the Great Northwest since founder Bob Schwenkfelder opened a tire shop in Boise, Idaho, in 1968. Since then, we have grown throughout the Northwest and became a completely employee-owned company. Our skilled technicians provide professional automotive services and specialize in tires, wheel alignments, oil changes, brakes, and much more."
+        },
+        {
+            "name": "St. Luke's Meridian Medical Center",
+            "contact": "(208) 706-5000",
+            "logo": "images/stlukes.png",
+            "website": "https://www.stlukesonline.org/",
+            "description":"Life is anything but normal right now. And while you’re trying to take care of everyone else, make sure to take care of yourself. Let us be your partner in health, whether you’re recovering from an injury, checking in for your annual exam, or learning to meditate in an online class. Because when you take care of yourself, everyone around you benefits."
+        },
+        {
+            "name": "Vertical View",
+            "contact": "(208) 884-5611",
+            "logo": "images/vv.png",
+            "website": "https://verticalview.com/",
+            "description":"Vertical View is a locally owned and operated indoor rock climbing gym that also offers yoga, cardio, and weightliting servieces. The top rope walls are as high as 65' and there is also an Olympic speed climbing wall."
+        }
+        
+    ]
+}

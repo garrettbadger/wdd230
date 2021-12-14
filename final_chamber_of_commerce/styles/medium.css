@@ -37,11 +37,20 @@
    
 }
 
-.contact img{
-    max-width: 50%;
-    float: left;
-    overflow: hidden;
-    padding: 1rem;
+.contact picture{
+    max-width: 100%;
+    
+    
+    display:block;
+}
+.contact iframe{
+    max-width: 100%;
+    
+    
+    display:block;
+}
+.section3 iframe{
+    max-width: 100%;
     display:block;
 }
 

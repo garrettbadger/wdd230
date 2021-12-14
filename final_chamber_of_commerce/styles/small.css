@@ -68,21 +68,34 @@ main{
     padding: 1rem;
     display: block;
     max-width: 100%;
+    text-align: center;
 }
 .section2 {
     background-color: lightblue;
     padding: 1rem;
     max-width: 100%;
     display: block;
-
+    text-align: center;
 
 }
 .section3{
     background-color: gray;
     padding: 1rem;
+    text-align: center;
+
+
+}
+.section1 img{
+    max-width: 100%;
+    display: block;
+}
+.section2 img{
+    max-width: 100%;
+    display: block;
+}
+.section3 iframe{
+    display:none;
     
-
-
 }
 
 .forecast, .currently{
@@ -130,18 +143,75 @@ main{
     padding: .5rem;
     font-size: 20px;;
 }
-.contact picture img{
+.contact picture {
     display: none;
-    margin-right: 10rem;
+    
     max-width: 100%;
    }
-.whoweare a img{
+.whoweare img{
     display: block;
     max-width: 100%;
+}
+.whoweare{
+    font-size: 1.5rem;
 }
 .ads img{
     display: block;
     max-width: 100%;
+}
+.events ul li{
+    list-style-type: none;
+    padding: .25rem;
+    font-size: 1.25rem;
+}
+.contact-info {
+    text-align: center;
+    background-color: #80bd9841;
+    max-width: 40%;
+    margin: 20px auto;
+    padding: 1rem;
+    border-radius: 5px;
+}
+.contact-info ul li{
+    list-style-type: none;
+    padding: .5em;
+    
+}
+.embed picture iframe{
+    /* max-width: 600px; */
+    margin: 0 auto;
+    align-content: center;
+}
+.directors{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 1rem;
+    list-style-type: none;
+    
+}
+.directors img{
+    align-items: center;
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    width: 300px;
+    padding: 1rem;
+}
+.directors div ul li:first-child{
+    list-style-type: none;
+}
+.directors div ul li:nth-child(2){
+    list-style-type: none;
+}
+.directors div ul li:nth-child(3){
+    list-style-type: none;
+}
+.herodiv img{
+    padding: 2rem;
+    display:block;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 /* FORM */
@@ -242,4 +312,51 @@ form label.top input:required:valid{
 }
 .tiers div:nth-child(4){
     background-color:#f1ca1ca8;
+}
+
+/* DIRECTORY */
+.directory{
+    display: grid;
+    
+    grid-template-columns: 1fr;
+    
+}
+.directory section{
+   
+    background-color: #80BDB7 ;
+    padding: 2rem;
+    margin: 5px;
+    text-align: right;
+    border:1px solid #000000;
+    
+}
+.directory h3{
+    padding: 2rem;
+}
+
+.directory img{
+    
+    max-width: 100%;
+    float: left;
+    padding: 1rem ;
+    display: block;   
+    
+}
+.directory section:nth-child(6) img{
+    padding: 1rem 2rem;
+}
+
+main button {
+    margin: .2rem 2%;
+    background-color: #8087bd81;
+    border: 1px solid #000000;
+    font-size: 1.6rem;
+    width: 150px;
+    border-radius: 8px;
+    
+    
+}
+.grid div{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }

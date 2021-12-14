@@ -2,7 +2,7 @@ const apiURL = 'https://api.openweathermap.org/data/2.5/onecall?lat=43.6121&lon=
 fetch(apiURL)
     .then((response) => response.json())
     .then((jsObject) => {
-        console.log(jsObject)
+        
         let api = jsObject;
         let currentTemp = api.current.temp;
         let currentCondition = api.current.weather[0].description;
