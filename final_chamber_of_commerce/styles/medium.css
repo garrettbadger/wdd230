@@ -37,22 +37,19 @@
    
 }
 
-.contact picture{
-    max-width: 100%;
-    
-    
-    display:block;
-}
+
 .contact iframe{
     max-width: 100%;
-    
-    
     display:block;
+    margin: auto;
+    align-content: center;
 }
+
 .section3 iframe{
     max-width: 100%;
     display:block;
 }
+
 
 /* FORM */
 .tiers{

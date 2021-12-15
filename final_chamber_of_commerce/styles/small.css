@@ -95,16 +95,20 @@ main{
 
 }
 .section1 img{
+    margin: auto;
     max-width: 100%;
     display: block;
 
 }
 .section2 img{
+    margin: auto;
     max-width: 100%;
     display: block;
 }
+
 .section3 iframe{
     display:none;
+    margin: auto;
     
 }
 
@@ -168,6 +172,7 @@ main{
 .ads img{
     display: block;
     max-width: 100%;
+    margin: auto;
 }
 .events ul li{
     list-style-type: none;
@@ -187,10 +192,10 @@ main{
     padding: .5em;
     
 }
-.embed picture iframe{
-    /* max-width: 600px; */
-    margin: 0 auto;
-    align-content: center;
+.contact iframe{
+    
+    display:none;
+    
 }
 .directors{
     display: grid;
