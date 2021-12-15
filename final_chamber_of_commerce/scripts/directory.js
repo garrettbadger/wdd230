@@ -4,7 +4,7 @@ fetch(apiSource)
     .then((response) => response.json())
     .then((jsObject) => {
     const business = jsObject['businesses'];
-    console.table(jsObject);  // temporary checking for valid response and data parsing
+    
     business.forEach((business) => {
         let card = document.createElement('section');
         let h3 = document.createElement('h3');
