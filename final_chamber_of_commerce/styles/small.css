@@ -97,6 +97,7 @@ main{
 .section1 img{
     max-width: 100%;
     display: block;
+
 }
 .section2 img{
     max-width: 100%;
@@ -197,6 +198,7 @@ main{
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     padding: 1rem;
     list-style-type: none;
+    text-align: center;
     
 }
 .directors img{
